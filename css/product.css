@@ -81,7 +81,7 @@ body {
 
 .cardgame{
   background-image: 
-  linear-gradient(rgba(19, 15, 64,1.0), rgba(48, 51, 107,1.0), rgba(72, 52, 212,1.0));
+  linear-gradient(rgba(123, 30, 45,1.0), rgba(123, 30, 45,1.0));
   background-repeat: no-repeat;
   color:#fff;
 }
@@ -90,7 +90,7 @@ body {
   width: 60%;
   margin: auto;
   background-image: 
-  linear-gradient(rgba(19, 15, 64,1.0), rgba(48, 51, 107,1.0), rgba(72, 52, 212,1.0));
+  linear-gradient(rgba(123, 30, 45,1.0), rgba(123, 30, 45,1.0));
   background-repeat: no-repeat;
   font-family: 'futura';
   color:#fff;
@@ -195,14 +195,14 @@ font-style: normal;
 body {
   margin: 0;
   background-image: 
-  linear-gradient(rgba(0, 0, 0, 1), rgba(19, 15, 64,1.0), rgba(48, 51, 107,1.0));
+  linear-gradient(rgba(169, 56, 93,1.0), rgba(169, 56, 93,1.0));
   background-repeat: no-repeat;
   min-height: 100vh;
   height: 100%;
 }
 
 .bg-black{
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(123, 30, 45,1.0);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
