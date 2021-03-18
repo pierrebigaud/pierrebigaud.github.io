@@ -1,0 +1,292 @@
+body {
+  padding-bottom: 20px;
+}
+
+.carousel-inner img {
+  width:640px;
+  height:360px;
+}
+
+.gallerie {
+  width: 80%;
+  margin: auto;
+}
+
+.heightgif {
+  max-height: 10vh;
+}
+
+.contact {
+  width: 50%;
+  margin: auto;
+}
+
+.parcours {
+  width: 60%;
+  margin: auto;
+}
+
+.futuraclassique{
+  font-family: 'futura';
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.futurasimple{
+  font-family: 'futura';
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.futuragras{
+  font-family: 'futuraGras';
+  text-align: center;
+  font-size: 3em;
+}
+
+.futuragrassoustitre{
+  font-family: 'futuraGras';
+  text-align: center;
+  font-size: 2em;
+}
+
+.vignette {
+  max-width: 100%;
+  margin: auto;
+  opacity: 50%;
+  min-height: 280px;
+  display: flex;
+
+}
+
+.vignetteContact {
+  max-width: 100%;
+  padding-bottom: 2vh;
+  margin: auto;
+  opacity: 50%;
+  display: flex;
+
+}
+
+.card {
+  border: 0px;
+}
+
+.futurapolice {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'futuraTitle';
+  font-weight: thin;
+}
+
+.cardgame{
+  background-image: 
+  linear-gradient(rgba(19, 15, 64,1.0), rgba(48, 51, 107,1.0), rgba(72, 52, 212,1.0));
+  background-repeat: no-repeat;
+  color:#fff;
+}
+
+.accueil {
+  width: 60%;
+  margin: auto;
+  background-image: 
+  linear-gradient(rgba(19, 15, 64,1.0), rgba(48, 51, 107,1.0), rgba(72, 52, 212,1.0));
+  background-repeat: no-repeat;
+  font-family: 'futura';
+  color:#fff;
+}
+
+.accueil a{
+  transition: ease-in-out color .15s;
+  text-decoration: none;
+  color: #eb4d4b;
+  text-decoration: none;
+}
+
+.accueil a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+.lien{
+  text-align: center;
+  font-size: 2em;
+}
+
+.lien a{
+  font-family: 'futuraTitle';
+  font-weight: thin;
+  transition: ease-in-out color .15s;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.lien a:hover{
+  color: #eb4d4b;
+  text-decoration: none;
+}
+
+.imageParcours {
+  display: flex;
+  width: 100%;
+}
+
+.title{
+  display: inline;
+}
+
+.headtitre {
+  display: flex;
+  font-family: 'futuraGras';
+  margin: auto;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+
+@font-face {
+font-family: 'futura';
+src: url('police/futura_book_font-webfont.eot');
+src: url('police/futura_book_font-webfont.ttf') format('truetype'),
+     url('police/futura_book_font-webfont.woff') format('woff'),
+     url('police/futura_book_font-webfont.eot?#iefix') format('embedded-opentype'),
+     url('police/futura_book_font-webfont.svg#QuadrantaBold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'futuraTitle';
+src: url('police/tt0205m_-webfont.eot');
+src: url('police/tt0205m_-webfont.ttf') format('truetype'),
+     url('police/tt0205m_-webfont.woff') format('woff'),
+     url('police/tt0205m_-webfont.eot?#iefix') format('embedded-opentype'),
+     url('police/tt0205m_-webfont.svg#QuadrantaBold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'futuraGras';
+src: url('police/futura_heavy_font-webfont.eot');
+src: url('police/futura_heavy_font-webfont.ttf') format('truetype'),
+     url('police/futura_heavy_font-webfont.woff') format('woff'),
+     url('police/futura_heavy_font-webfont.eot?#iefix') format('embedded-opentype'),
+     url('police/futura_heavy_font-webfont.svg#QuadrantaBold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+.placementNav {
+  max-width: 960px;
+  margin: auto;
+  width: 50%;
+}
+
+.containerCenter {
+  font-family: 'futuraTitle';
+  font-size: 2em;
+  
+  color: #fff;
+  transition: ease-in-out color .15s;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 1), rgba(19, 15, 64,1.0), rgba(48, 51, 107,1.0));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.bg-black{
+  background-color: rgba(0, 0, 0, 1);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.flexibleUl {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.logo {
+  height: calc(5vh + 30px);
+}
+
+.flexibleUl ul{
+
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, 1);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  
+}
+
+.containerCenter:hover {
+  color: #eb4d4b;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
