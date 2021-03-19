@@ -38,6 +38,18 @@ body {
   font-size: 1.2em;
 }
 
+.futurasimple a{
+  transition: ease-in-out color .15s;
+  text-decoration: none;
+  color: rgba(236, 138, 180,1.0);
+  text-decoration: none;
+}
+
+.futurasimple a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
 .futuragras{
   font-family: 'futuraGras';
   text-align: center;
@@ -52,10 +64,10 @@ body {
 
 .vignette {
   max-width: 100%;
+  display: block;
+  width: auto;
+  height: auto;
   margin: auto;
-  opacity: 50%;
-  min-height: 280px;
-  display: flex;
 
 }
 
@@ -73,15 +85,13 @@ body {
 }
 
 .futurapolice {
-  text-align: center;
   font-size: 2em;
   font-family: 'futuraTitle';
   font-weight: thin;
 }
 
 .cardgame{
-  background-image: 
-  linear-gradient(rgba(123, 30, 45,1.0), rgba(123, 30, 45,1.0));
+  background-color:rgba(123, 30, 45,1.0);
   background-repeat: no-repeat;
   color:#fff;
 }
@@ -89,8 +99,7 @@ body {
 .accueil {
   width: 60%;
   margin: auto;
-  background-image: 
-  linear-gradient(rgba(123, 30, 45,1.0), rgba(123, 30, 45,1.0));
+  background-color:rgba(123, 30, 45,1.0);
   background-repeat: no-repeat;
   font-family: 'futura';
   color:#fff;
@@ -99,7 +108,7 @@ body {
 .accueil a{
   transition: ease-in-out color .15s;
   text-decoration: none;
-  color: #eb4d4b;
+  color: rgba(236, 138, 180,1.0);
   text-decoration: none;
 }
 
@@ -194,8 +203,7 @@ font-style: normal;
 
 body {
   margin: 0;
-  background-image: 
-  linear-gradient(rgba(169, 56, 93,1.0), rgba(169, 56, 93,1.0));
+  background-color:rgba(169, 56, 93,1.0);
   background-repeat: no-repeat;
   min-height: 100vh;
   height: 100%;
